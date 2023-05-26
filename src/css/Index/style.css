@@ -1,0 +1,27 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: 0;
+}
+
+section .writing__Section {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.writing__Section--Place {
+	margin-top: 4rem;
+	border: 1px solid lightgray;
+	background-color: lightslategray;
+	width: 400px;
+	height: 400px;
+}
+
+.writing_Section--Icon {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	margin: 1rem;
+}
