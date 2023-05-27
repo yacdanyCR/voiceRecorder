@@ -4,6 +4,14 @@
 	box-sizing: 0;
 }
 
+img {
+	cursor: pointer;
+}
+
+.writing__Section {
+	padding: 5rem;
+}
+
 section .writing__Section {
 	display: flex;
 	justify-content: center;
@@ -12,16 +20,18 @@ section .writing__Section {
 }
 
 .writing__Section--Place {
+	text-align: justify;
+	padding: 2rem;
 	margin-top: 4rem;
 	border: 1px solid lightgray;
-	background-color: lightslategray;
 	width: 400px;
-	height: 400px;
+	min-height: 400px;
+	height: max-content;
+
 }
 
 .writing_Section--Icon {
 	width: 100px;
 	height: 100px;
-	background-color: red;
 	margin: 1rem;
 }
