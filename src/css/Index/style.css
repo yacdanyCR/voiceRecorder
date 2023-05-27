@@ -13,7 +13,7 @@ section .writing__Section {
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 5rem;
+	margin-top: 3rem;
 }
 
 .writing__Section--Place {
