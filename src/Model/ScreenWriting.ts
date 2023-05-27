@@ -7,6 +7,7 @@ class ScreenWriting {
 		const div_recordIcon = document.createElement("div") as HTMLDivElement
 		const iconStartMicrophone = document.createElement("img") as HTMLImageElement
 		const iconStopMicrophone = document.createElement("img") as HTMLImageElement
+		const eraserIcon = document.createElement("img") as HTMLImageElement
 
 		$app.append(section)
 		div_writing__Section.className = "writing__Section"
@@ -28,8 +29,14 @@ class ScreenWriting {
 		iconStopMicrophone.width = 70
 		iconStopMicrophone.hidden = true
 
+		eraserIcon.className = "writing__Eraser__Section"
+		eraserIcon.alt = "icon"
+		eraserIcon.src = "/eraser.svg"
+		eraserIcon.width = 70
+
 		div_recordIcon.append(iconStartMicrophone)
 		div_recordIcon.append(iconStopMicrophone)
+		div_recordIcon.append(eraserIcon)
 	}
 }
 
